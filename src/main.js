@@ -14,7 +14,7 @@ export default class App {
         let impares = 0;
         
 
-        for(let i = inicio; i <= fin; i = i + 1) {
+        for(let i = inicio; i <= fin; i = i + 2) {
             if(i % 2 != 0){
                 impares = impares + 1;
 
