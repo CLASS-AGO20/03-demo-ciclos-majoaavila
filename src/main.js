@@ -1,9 +1,14 @@
 export default class App {
 
     sumarParesFor() {
+        let suma = 0;
+
         for(let i = 1; i <= 20; i = i + 1) {
-            console.log(i);
+           if(i % 2 === 0) {
+               suma = suma + i;
+           }
         }
+        return suma;
 }
 
 
@@ -11,4 +16,4 @@ export default class App {
 
 let app = new App();
 
-app.sumarParesFor();
+console.log(app.sumarParesFor());
