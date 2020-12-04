@@ -45,17 +45,14 @@ export default class App {
 
         while(i <= fin) {
 
-            if(i % 2 !== 0) {
-                impares ++;
+            if(i % 2 != 0) {
+                impares = impares + 1;
             }
 
-            i++;
+            i = i + 1;
         }
         return impares;
     }
-
-    
-
 
 }
 
